@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rkdd"
+version = "0.1.0"
+description = ""
+authors = ["Palash Bauri <palashbauri1@gmail.com>"]
+license = "GPL 3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.293"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
